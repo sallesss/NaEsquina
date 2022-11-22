@@ -1,0 +1,70 @@
+.icon {
+  width: 35px;
+}
+
+.info {
+  padding: 10px;
+  float: left;
+  width: 90%;
+}
+
+.redes ul li {
+  display: inline;
+  float: left;
+}
+
+/* info é o conteiner com as informações e height é a altura*/
+
+main {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+
+/* width é a largura e main é o elemento principal*/
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  height: 60px;
+  /* min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
