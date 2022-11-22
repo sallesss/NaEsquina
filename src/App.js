@@ -19,6 +19,7 @@ function App() {
               <li><a href=" "><img src={lupaImg} alt="lupa img" /></a></li>
               <li><a href=" "><img src={carroImg} alt="carro img" /></a></li>
               <li><a href=" "><img src={userImg} alt="user img" /></a></li>
+              <li><a href=" "><img src={userImg} alt="user img" /></a></li>
             </ul>
           </div>
           <div className="App">
