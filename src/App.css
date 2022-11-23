@@ -1,21 +1,52 @@
+.info {
+  padding: 10px;
+  float: left;
+  width: 60%;
+}
+
+ul {
+  padding: 0px !important;
+}
+
+h1 {
+  font-size: 20px;
+  display: inline;
+  color: #d9eeff;
+  padding: 2px;
+  vertical-align: 9px;
+  cursor: pointer;
+}
+
 .icon {
   width: 35px;
 }
 
-.info {
-  padding: 10px;
-  float: left;
-  width: 90%;
-}
-
 .redes ul li {
+  margin-left: 14px;
   display: inline;
   float: left;
+}
+
+.redes ul li a {
+  margin: 10px;
+}
+
+.redes ul li a img {
+  height: 37px;
+  margin-left: 13px;
+}
+
+
+.redes {
+  float: right;
+  width: 37%;
+  margin: -6px;
 }
 
 /* info é o conteiner com as informações e height é a altura*/
 
 main {
+  margin-bottom: 10px;
   margin: 0 auto;
   width: 980px;
   position: relative;
@@ -23,6 +54,7 @@ main {
 
 /* width é a largura e main é o elemento principal*/
 body {
+  margin: 0 auto;
   width: 100%;
   height: 100%;
 }
@@ -40,31 +72,65 @@ body {
   color: white; */
 }
 
-.App-link {
-  color: #61dafb;
+.headerbaixo {
+  background-color: rgb(255, 255, 255);
+  width: 980px;
+  margin: 0 auto;
+  padding: 7px;
 }
 
-.App {
-  text-align: center;
+.menu-urls {
+  height: 70px;
+  border-bottom: 2px solid rgb(180, 180, 180);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu ul li {
+  display: inline-block;
+  color: aliceblue;
+  margin-left: 15px;
+  height: 46px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu ul li:hover {
+  border-bottom: 3px solid #76beff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.menu ul li a {
+  color: #a8a8a8;
+  text-decoration: none;
+  font-size: 18px;
 
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.menu ul li a:hover {
+  color: #76beff;
+}
+
+.menu {
+  width: 70%;
+  float: left;
+}
+
+.busca {
+  float: right;
+  width: 30%;
+}
+
+.busca input {
+  background-size: 20px;
+  background-image: url(../src/icons/busca.png);
+  background-repeat: no-repeat;
+  background-position: 97%;
+  border: 1px solid rgb(177, 177, 177);
+  width: 176px;
+  height: 1px;
+  margin-left: -23px;
+  padding: 11px;
+  margin-top: 16px;
+}
+
+.main2 {
+  width: 100%;
+  float: left;
+  position: relative;
 }
