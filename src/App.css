@@ -127,10 +127,43 @@ body {
   margin-left: -23px;
   padding: 11px;
   margin-top: 16px;
+  border-radius: 6px;
 }
 
 .main2 {
   width: 100%;
   float: left;
   position: relative;
+}
+
+.rec.rec-carousel-wrapper {
+  height: 550px;
+}
+
+.rec.rec-slider-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 0 0px;
+}
+
+.rec.rec-arrow-left {
+  position: absolute;
+  z-index: 9;
+  left: 255px;
+  background-color: rgba(104, 104, 104, 0.4);
+}
+
+.rec.rec-arrow-right {
+  position: absolute;
+  z-index: 9;
+  right: 355px;
+  background-color: rgb(104, 104, 104, 0.4);
+}
+
+.rec.rec-pagination {
+  margin-top: -3%;
+  top: 105%;
+  position: absolute;
+  left: 49%;
 }
