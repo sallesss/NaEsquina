@@ -3,8 +3,7 @@ import lojaImg from './icons/loja.png';
 import chatImg from './icons/chat.png';
 import favImg from './icons/fav2.png';
 import userImg from './icons/us.png';
-import bannerImg from './icons/bann.jpeg';
-import carousel from './Carousel.js';
+import { Marousel } from './components/Carousel ';
 import './App.css';
 
 function App() {
@@ -41,9 +40,7 @@ function App() {
         </div>
       </main>
       <div class="main2">
-        <Carousel>
-
-        </Carousel>
+        <Marousel />
       </div>
     </body>
   );
