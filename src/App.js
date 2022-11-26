@@ -42,6 +42,15 @@ function App() {
       <div class="main2">
         <Marousel />
       </div>
+      <div class="main2">
+        <div class="content texto">
+          <h1>Descubra novos <strong>empreendimentos</strong> perto de você!</h1>
+          <p>Cadastre ou pesquise por negócios locais conhecidos ou desconhecidos.</p>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     </body>
   );
 }
