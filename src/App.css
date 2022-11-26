@@ -45,12 +45,13 @@ h1 {
 
 /* info é o conteiner com as informações e height é a altura*/
 
-main {
-  margin-bottom: 10px;
+main,
+.content {
   margin: 0 auto;
   width: 980px;
   position: relative;
 }
+
 
 /* width é a largura e main é o elemento principal*/
 body {
@@ -166,4 +167,25 @@ body {
   top: 105%;
   position: absolute;
   left: 49%;
+}
+
+.texto {
+  text-align: center;
+}
+
+.texto h1 {
+  text-transform: uppercase;
+  color: #777777;
+}
+
+.texto strong {
+  color: #494949;
+}
+
+.texto p {
+  color: #a8a8a8;
+}
+
+.content {
+  margin-top: 70px;
 }
