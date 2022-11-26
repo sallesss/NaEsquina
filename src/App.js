@@ -3,6 +3,9 @@ import lojaImg from './icons/loja.png';
 import chatImg from './icons/chat.png';
 import favImg from './icons/fav2.png';
 import userImg from './icons/us.png';
+import loja1Img from './icons/loja1.png';
+import eadImg from './icons/ead.png';
+import esquinaImg from './icons/esquina.png';
 import { Marousel } from './Components/Carousel';
 import './App.css';
 
@@ -42,13 +45,29 @@ function App() {
       <div class="main2">
         <Marousel />
       </div>
-      <div class="main2">
+      <div class="main2"> <noscript>main2,main3 são as colunas</noscript>
         <div class="content texto">
           <h1>Descubra novos <strong>empreendimentos</strong> perto de você!</h1>
           <p>Cadastre ou pesquise por negócios locais conhecidos ou desconhecidos.</p>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="main3 texto-bloco">
+            <img src={loja1Img} alt="loja img" />
+            <h3><strong>Restaurantes</strong></h3>
+            <p>São empreendimentos mais estruturados
+              que já possuem lojas físicas.
+            </p>
+          </div>
+          <div class="main3 texto-bloco">
+            <img src={esquinaImg} alt="esquina img" />
+            <h3><strong>Esquinas</strong> Locais</h3>
+            <p>São empreendimentos menos estruturados
+              que possuem apenas o endereço cadastrado.
+            </p>
+          </div>
+          <div class="main3 texto-bloco">
+            <img src={eadImg} alt="ead img" />
+            <h3><strong>E-commerce</strong> Virtuais</h3>
+            <p>São empreendimentos que atendem apenas pela internet.</p>
+          </div>
         </div>
       </div>
     </body>
