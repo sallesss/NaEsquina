@@ -3,7 +3,7 @@ import lojaImg from './icons/loja.png';
 import chatImg from './icons/chat.png';
 import favImg from './icons/fav2.png';
 import userImg from './icons/us.png';
-import { Marousel } from './components/Carousel ';
+import { Marousel } from './Components/Carousel';
 import './App.css';
 
 function App() {
@@ -46,5 +46,3 @@ function App() {
   );
 }
 export default App;
-
-
