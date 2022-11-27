@@ -5,6 +5,9 @@ import favImg from './icons/fav2.png';
 import userImg from './icons/us.png';
 import loja1Img from './icons/loja1.png';
 import eadImg from './icons/ead.png';
+import restImg from './img/rest.jpg';
+import esqImg from './img/esq.jpg';
+import commImg from './img/comm.jpg';
 import esquinaImg from './icons/esquina.png';
 import { Marousel } from './Components/Carousel';
 import './App.css';
@@ -57,7 +60,7 @@ function App() {
             </p>
           </div>
           <div class="main3 texto-bloco">
-            <img src={esquinaImg} alt="esquina img" />
+            <img src={esquinaImg} alt="esquina img" style={{ marginTop: "6em" }} />
             <h3><strong>Esquinas</strong> Locais</h3>
             <p>São empreendimentos menos estruturados
               que possuem apenas o endereço cadastrado.
@@ -68,6 +71,21 @@ function App() {
             <h3><strong>E-commerce</strong> Virtuais</h3>
             <p>São empreendimentos que atendem apenas pela internet.</p>
           </div>
+        </div>
+      </div>
+      <div class="main2 imagens-bloco">
+        <div class="content" style={{ marginLeft: "24%", float: "left" }}>
+          <div class="main3 texto-bloco imagem-bloco">
+            <img src={restImg} alt="rest img" />
+            <p><b>Restaurantes</b></p>
+          </div>
+          <div class="main3 texto-bloco imagem-bloco">
+            <img src={esqImg} alt="esq img" />
+          </div>
+          <div class="main3 texto-bloco imagem-bloco">
+            <img src={commImg} alt="comm img" />
+          </div>
+
         </div>
       </div>
     </body>

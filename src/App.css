@@ -43,6 +43,7 @@ h1 {
   margin: -6px;
 }
 
+
 /* info é o conteiner com as informações e height é a altura*/
 
 main,
@@ -176,6 +177,7 @@ body {
 .texto h1 {
   text-transform: uppercase;
   color: #777777;
+  cursor: default;
 }
 
 .texto strong {
@@ -184,6 +186,7 @@ body {
 
 .texto p {
   color: #a8a8a8;
+  cursor: default;
 }
 
 .content {
@@ -208,4 +211,42 @@ h3 {
 
 .texto-bloco strong {
   color: #494949;
+  cursor: default;
+}
+
+.texto-bloco h3 {
+  cursor: default;
+}
+
+.imagem-bloco {
+  height: 300px;
+  border: 1px solid #c5c5c5;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 10px;
+}
+
+.imagem-bloco img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+
+}
+
+.imagens-bloco:before {
+  width: 100%;
+  display: inline-block;
+  content: '';
+  height: 52px;
+  background: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.imagens-bloco::after {
+  width: 100%;
+  display: inline-block;
+  content: '';
+  height: 70px;
+  background: #eeeeee;
 }
