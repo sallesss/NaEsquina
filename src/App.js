@@ -5,9 +5,9 @@ import favImg from './icons/fav2.png';
 import userImg from './icons/us.png';
 import loja1Img from './icons/loja1.png';
 import eadImg from './icons/ead.png';
-import restImg from './img/rest.jpg';
+import restImg from './img/merc.jpg';
 import esqImg from './img/esq.jpg';
-import commImg from './img/comm.jpg';
+import barbImg from './img/barb.jpg';
 import esquinaImg from './icons/esquina.png';
 import { Marousel } from './Components/Carousel';
 import './App.css';
@@ -77,14 +77,35 @@ function App() {
         <div class="content" style={{ marginLeft: "24%", float: "left" }}>
           <div class="main3 texto-bloco imagem-bloco">
             <img src={restImg} alt="rest img" />
-            <p><b>Restaurantes</b></p>
+            <p><b>Mercadinho</b></p>
+            <p>Encontre mercadinhos por endereço</p>
           </div>
           <div class="main3 texto-bloco imagem-bloco">
             <img src={esqImg} alt="esq img" />
+            <p><b>Lanchonete</b></p>
+            <p>Encontre laconhetes por endereço</p>
           </div>
           <div class="main3 texto-bloco imagem-bloco">
-            <img src={commImg} alt="comm img" />
+            <img src={barbImg} alt="barb img" />
+            <p><b>Barbearia</b></p>
+            <p>Encontre barbearias por endereço</p>
           </div>
+          <div class="main3 texto-bloco imagem-bloco">
+            <img src={restImg} alt="rest img" />
+            <p><b>Mercadinho</b></p>
+            <p>Encontre mercadinhos por endereço</p>
+          </div>
+          <div class="main3 texto-bloco imagem-bloco">
+            <img src={esqImg} alt="esq img" />
+            <p><b>Lanchonete</b></p>
+            <p>Encontre laconhetes por endereço</p>
+          </div>
+          <div class="main3 texto-bloco imagem-bloco">
+            <img src={barbImg} alt="barb img" />
+            <p><b>Barbearia</b></p>
+            <p>Encontre barbearias por endereço</p>
+          </div>
+          
 
         </div>
       </div>

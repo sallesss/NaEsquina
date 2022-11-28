@@ -190,11 +190,12 @@ body {
 }
 
 .content {
-  margin-top: 70px;
+  margin-top: 55px;
 }
 
 .texto-bloco {
-  margin-top: 3em;
+  margin-top: 2em;
+  text-align: center;
 }
 
 .main3 {
@@ -217,6 +218,9 @@ h3 {
 .texto-bloco h3 {
   cursor: default;
 }
+.imagens-bloco{
+  background-color: #eeeeee;
+}
 
 .imagem-bloco {
   height: 300px;
@@ -224,6 +228,7 @@ h3 {
   padding-top: 15px;
   padding-bottom: 15px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .imagem-bloco img {
@@ -232,13 +237,23 @@ h3 {
   height: auto;
 
 }
+.imagem-bloco b {
+  text-align: center;
+  color: #494949;
+
+}
+.imagem-bloco p{
+  color:#a8a8a8;
+}
+
 
 .imagens-bloco:before {
   width: 100%;
   display: inline-block;
   content: '';
-  height: 52px;
+  height: 57px;
   background: #ffffff;
+  background-image: url(./icons/seta.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
