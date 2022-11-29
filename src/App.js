@@ -8,6 +8,9 @@ import eadImg from './icons/ead.png';
 import restImg from './img/merc.jpg';
 import esqImg from './img/esq.jpg';
 import barbImg from './img/barb.jpg';
+import padImg from './img/pad.jpg';
+import bcImg from './img/bc.jpeg';
+import acaiImg from './img/acai.jpg';
 import esquinaImg from './icons/esquina.png';
 import { Marousel } from './Components/Carousel';
 import './App.css';
@@ -54,7 +57,7 @@ function App() {
           <p>Cadastre ou pesquise por negócios locais conhecidos ou desconhecidos.</p>
           <div class="main3 texto-bloco">
             <img src={loja1Img} alt="loja img" />
-            <h3><strong>Restaurantes</strong></h3>
+            <h3><strong>Estabelecimentos</strong></h3>
             <p>São empreendimentos mais estruturados
               que já possuem lojas físicas.
             </p>
@@ -77,8 +80,8 @@ function App() {
         <div class="content" style={{ marginLeft: "24%", float: "left" }}>
           <div class="main3 texto-bloco imagem-bloco">
             <img src={restImg} alt="rest img" />
-            <p><b>Mercadinho</b></p>
-            <p>Encontre mercadinhos por endereço</p>
+            <p><b>Mercearia</b></p>
+            <p>Encontre mercearias por endereço</p>
           </div>
           <div class="main3 texto-bloco imagem-bloco">
             <img src={esqImg} alt="esq img" />
@@ -91,21 +94,21 @@ function App() {
             <p>Encontre barbearias por endereço</p>
           </div>
           <div class="main3 texto-bloco imagem-bloco">
-            <img src={restImg} alt="rest img" />
-            <p><b>Mercadinho</b></p>
-            <p>Encontre mercadinhos por endereço</p>
+            <img src={padImg} alt="pad img" />
+            <p><b>Padaria</b></p>
+            <p>Encontre padarias por endereço</p>
           </div>
           <div class="main3 texto-bloco imagem-bloco">
-            <img src={esqImg} alt="esq img" />
-            <p><b>Lanchonete</b></p>
-            <p>Encontre laconhetes por endereço</p>
+            <img src={bcImg} alt="bc img" />
+            <p><b>Borracharia</b></p>
+            <p>Encontre borracharias por endereço</p>
           </div>
           <div class="main3 texto-bloco imagem-bloco">
-            <img src={barbImg} alt="barb img" />
-            <p><b>Barbearia</b></p>
-            <p>Encontre barbearias por endereço</p>
+            <img src={acaiImg} alt="acai img" />
+            <p><b>Açaí</b></p>
+            <p>Encontre pontos de açaí por endereço</p>
           </div>
-          
+
 
         </div>
       </div>
