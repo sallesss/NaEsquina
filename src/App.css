@@ -265,3 +265,15 @@ h3 {
   height: 70px;
   background: #eeeeee;
 }
+
+.main4{
+  display: block;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.main4 img {
+  height: 100px;
+  margin: 0 auto;
+  vertical-align: middle;
+}

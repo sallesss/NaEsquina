@@ -11,6 +11,12 @@ import barbImg from './img/barb.jpg';
 import padImg from './img/pad.jpg';
 import bcImg from './img/bc.jpeg';
 import acaiImg from './img/acai.jpg';
+
+import salesLogo from './img/sales.jpg';
+import marioLogo from './img/mario.png';
+import logoLogo from './img/logotopo.png';
+import pedrinLogo from './img/pedrin.jpg';
+
 import esquinaImg from './icons/esquina.png';
 import { Marousel } from './Components/Carousel';
 import './App.css';
@@ -110,6 +116,22 @@ function App() {
           </div>
 
 
+        </div>
+      </div>
+      <div class="main2 bloco-logos">
+        <div class="content">
+          <div class="main4">
+            <img src={salesLogo} alt = "sales logo"></img>
+          </div>
+          <div class="main4">
+            <img src={marioLogo} alt = "mario logo"></img>
+          </div>
+          <div class="main4">
+            <img src={logoLogo} alt = "davys logo"></img>
+          </div>
+          <div class="main4">
+            <img src={pedrinLogo} alt = "pedrin logo"></img>
+            </div> 
         </div>
       </div>
     </body>
