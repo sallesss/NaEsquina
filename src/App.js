@@ -12,10 +12,10 @@ import padImg from './img/pad.jpg';
 import bcImg from './img/bc.jpeg';
 import acaiImg from './img/acai.jpg';
 
-import salesLogo from './img/sales.jpg';
-import marioLogo from './img/mario.png';
-import logoLogo from './img/logotopo.png';
-import pedrinLogo from './img/pedrin.jpg';
+import salesLogo from './img/pizza.jpg';
+import marioLogo from './img/acai.png';
+import logoLogo from './img/hamb.png';
+import pedrinLogo from './img/hot.png';
 
 import esquinaImg from './icons/esquina.png';
 import { Marousel } from './Components/Carousel';
@@ -134,6 +134,49 @@ function App() {
             </div> 
         </div>
       </div>
+      <footer>
+      <div class="main2 footer">
+        <div class="content">
+          <div class="main4">
+            <h3>Populares</h3>
+            <p>
+            -Política Para Vendedores Locais
+            <p>-Sustentabilidade E Impacto Social</p>
+            <p>-Carreiras</p>
+            </p>
+          </div>
+          <div class="main4">
+          <h3>Tags</h3>
+          <p>
+          -Como começar
+            <p>-Empreendimento Inicial</p>
+            <p>-Grande Negócio</p>
+            </p>
+          </div>
+          <div class="main4">
+          <h3>Sobre</h3>
+          <p>A <b>NaEsquina</b> atua como uma iniciativa
+para diferentes tipos de empreendimentos, os
+residenciais, e-commerce e restaurantes, sempre
+com respeito, sustentabilidade e excelência.</p>
+          </div>
+          <div class="main4">
+          <h3>Contatos</h3>
+          <p>
+            -Facebook
+            <p>-Instagram</p>
+            <p>-Whatsapp</p>
+            </p>
+            </div> 
+        </div>
+      </div>
+      </footer>
+      <div class="main2 footer2">
+      <div class="content">
+        <p>₢ Este site foi criado e editado por naesquina-devs</p>
+      </div>
+      </div>
+
     </body>
   );
 }
