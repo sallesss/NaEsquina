@@ -149,6 +149,10 @@ body {
   margin: 0 0px;
 }
 
+.rec.rec-carousel {
+  background-color: #1b1b1b;
+}
+
 .rec.rec-arrow-left {
   position: absolute;
   z-index: 9;
@@ -295,17 +299,18 @@ h3 {
 .footer {
   text-align: center;
   background-color: #494949;
+  height: 274px;
 }
 
 .footer h3 {
+  margin-top: -8px;
   cursor: pointer;
   text-align: left;
   margin-left: 50px;
 }
 
 .footer p {
-  width: 90%;
-
+  width: 85%;
   cursor: pointer;
   text-align: left;
   color: #c2c2c2;
