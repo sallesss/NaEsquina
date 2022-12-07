@@ -218,7 +218,8 @@ h3 {
 .texto-bloco h3 {
   cursor: default;
 }
-.imagens-bloco{
+
+.imagens-bloco {
   background-color: #eeeeee;
 }
 
@@ -237,13 +238,15 @@ h3 {
   height: auto;
 
 }
+
 .imagem-bloco b {
   text-align: center;
   color: #494949;
 
 }
-.imagem-bloco p{
-  color:#a8a8a8;
+
+.imagem-bloco p {
+  color: #a8a8a8;
 }
 
 
@@ -266,12 +269,13 @@ h3 {
   background: #eeeeee;
 }
 
-.main4{
+.main4 {
   display: block;
   float: left;
   width: 25%;
   text-align: center;
 }
+
 .main4 img {
   cursor: pointer;
   height: 110px;
@@ -279,31 +283,55 @@ h3 {
   margin: 0 auto;
   vertical-align: middle;
 }
+
 .bloco-logos {
   height: 170px;
 }
+
 .bloco-logos img {
   margin-top: -39px;
 }
 
-.footer{
+.footer {
   text-align: center;
   background-color: #494949;
 }
-.footer h3{
+
+.footer h3 {
   cursor: pointer;
   text-align: left;
+  margin-left: 50px;
 }
-.footer p{
+
+.footer p {
   width: 90%;
 
   cursor: pointer;
   text-align: left;
-  color:#c2c2c2;
+  color: #c2c2c2;
+  margin-left: 50px;
 }
-.footer2{
+
+.footer img {
+  height: 31px;
+  padding: initial;
+}
+
+.footer2 {
   background-color: #1b1b1b;
+  height: 80px;
+
 }
+
 .footer2 p {
   color: rgb(104, 104, 104);
+  margin: 0 auto;
+  margin-block-start: -21px;
+
+}
+
+.footer2 h8 {
+  color: rgb(104, 104, 104);
+  ;
+  float: right;
 }

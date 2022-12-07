@@ -17,6 +17,10 @@ import marioLogo from './img/acai.png';
 import logoLogo from './img/hamb.png';
 import pedrinLogo from './img/hot.png';
 
+import faceLogo from './img/face.png';
+import instaLogo from './img/insta.png';
+import whatLogo from './img/what.png';
+
 import esquinaImg from './icons/esquina.png';
 import { Marousel } from './Components/Carousel';
 import './App.css';
@@ -121,61 +125,57 @@ function App() {
       <div class="main2 bloco-logos">
         <div class="content">
           <div class="main4">
-            <img src={salesLogo} alt = "sales logo"></img>
+            <img src={salesLogo} alt="sales logo"></img>
           </div>
           <div class="main4">
-            <img src={marioLogo} alt = "mario logo"></img>
+            <img src={marioLogo} alt="mario logo"></img>
           </div>
           <div class="main4">
-            <img src={logoLogo} alt = "davys logo"></img>
+            <img src={logoLogo} alt="davys logo"></img>
           </div>
           <div class="main4">
-            <img src={pedrinLogo} alt = "pedrin logo"></img>
-            </div> 
+            <img src={pedrinLogo} alt="pedrin logo"></img>
+          </div>
         </div>
       </div>
       <footer>
-      <div class="main2 footer">
-        <div class="content">
-          <div class="main4">
-            <h3>Populares</h3>
-            <p>
-            -Política Para Vendedores Locais
-            <p>-Sustentabilidade E Impacto Social</p>
-            <p>-Carreiras</p>
-            </p>
+        <div class="main2 footer">
+          <div class="content">
+            <div class="main4">
+              <h3>Populares</h3>
+              <p>-Política Para Vendedores Locais</p>
+              <p>-Sustentabilidade E Impacto Social</p>
+              <p>-Carreiras</p>
+            </div>
+            <div class="main4">
+              <h3>Tags</h3>
+              <p>-Como começar</p>
+              <p>-Empreendimento Inicial</p>
+              <p>-Grande Negócio</p>
+            </div>
+            <div class="main4">
+              <h3>Sobre</h3>
+              <p>A <b>NaEsquina</b> atua como uma iniciativa
+                para diferentes tipos de empreendimentos, os
+                residenciais, e-commerce e restaurantes, sempre
+                com respeito, sustentabilidade e excelência.</p>
+            </div>
+            <div class="main4">
+              <h3>Contatos</h3>
+              <p><img src={faceLogo} alt='face logo' />  NaEsquina</p>
+              <p><img src={instaLogo} alt='insta logo' /> @NaEsquina</p>
+              <p><img src={whatLogo} alt='what logo' /> 91 98959-6330</p>
+            </div>
           </div>
-          <div class="main4">
-          <h3>Tags</h3>
-          <p>
-          -Como começar
-            <p>-Empreendimento Inicial</p>
-            <p>-Grande Negócio</p>
-            </p>
-          </div>
-          <div class="main4">
-          <h3>Sobre</h3>
-          <p>A <b>NaEsquina</b> atua como uma iniciativa
-para diferentes tipos de empreendimentos, os
-residenciais, e-commerce e restaurantes, sempre
-com respeito, sustentabilidade e excelência.</p>
-          </div>
-          <div class="main4">
-          <h3>Contatos</h3>
-          <p>
-            -Facebook
-            <p>-Instagram</p>
-            <p>-Whatsapp</p>
-            </p>
-            </div> 
         </div>
-      </div>
       </footer>
-      <div class="main2 footer2">
-      <div class="content">
-        <p>₢ Este site foi criado e editado por naesquina-devs</p>
-      </div>
-      </div>
+      <footer>
+        <div class="main2 footer2">
+          <div class="content">
+            <p>₢ Este site foi criado e editado por naesquina-devs <h8>Obrigado!</h8> </p>
+          </div>
+        </div>
+      </footer>
 
     </body>
   );
