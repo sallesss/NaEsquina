@@ -1,9 +1,10 @@
 import React from 'react';
 import lojaImg from './icons/loja.png';
-import chatImg from './icons/chat.png';
-import favImg from './icons/fav2.png';
-import userImg from './icons/us.png';
+import chatImg from './icons/chat2.png';
+import favImg from './icons/fav.png';
+import userImg from './icons/user.png';
 import loja1Img from './icons/loja1.png';
+
 import eadImg from './icons/ead.png';
 import restImg from './img/merc.jpg';
 import esqImg from './img/esq.jpg';
@@ -32,12 +33,11 @@ function App() {
         <main>
           <div class="info">
             <img class="icon" src={lojaImg} alt="loja img" />
-            <h1>NaEsquina</h1>
           </div>
           <div class="redes">
             <ul>
-              <li><a href=" "><img src={chatImg} alt="chat img" /></a></li>
               <li><a href=" "><img src={favImg} alt="fav img" /></a></li>
+              <li><a href=" "><img src={chatImg} alt="chat img" /></a></li>
               <li><a href=" "><img src={userImg} alt="user img" /></a></li>
             </ul>
           </div>

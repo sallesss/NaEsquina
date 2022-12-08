@@ -18,7 +18,7 @@ h1 {
 }
 
 .icon {
-  width: 35px;
+  margin-left: 0px;
 }
 
 .redes ul li {
@@ -31,15 +31,9 @@ h1 {
   margin: 10px;
 }
 
-.redes ul li a img {
-  height: 37px;
-  margin-left: 13px;
-}
-
-
 .redes {
   float: right;
-  width: 37%;
+  width: 33%;
   margin: -6px;
 }
 
@@ -158,6 +152,25 @@ body {
   position: absolute;
   z-index: 9;
   background-color: rgba(104, 104, 104, 0.4);
+}
+
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-left:focus:enabled {
+  color: #fff;
+  background-color: rgb(23 128 213);
+  box-shadow: 0 0 2px 0 #333;
+}
+
+.rec.rec-arrow-right:hover:enabled,
+.rec.rec-arrow-right:focus:enabled {
+  color: #fff;
+  background-color: rgb(23 128 213);
+  box-shadow: 0 0 2px 0 #333;
+}
+
+.rec.rec-dot_active {
+  background-color: rgba(23, 127, 213, 0.329);
+  box-shadow: 0 0 1px 3px rgb(23 128 213);
 }
 
 .rec.rec-arrow-right {
