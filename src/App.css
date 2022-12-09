@@ -29,6 +29,14 @@ h1 {
   float: left;
 }
 
+:root {
+  --primary-bg: rgb(78, 78, 78);
+  --secondary-bg: white;
+  --primary-text: #555;
+  --secondary-text: #cecece;
+  --border-radius: 8px;
+  --speed: 500ms;
+}
 
 
 .redes {
@@ -37,9 +45,47 @@ h1 {
   margin: -6px;
 }
 
+.lista-drop {
+  text-align: center;
+  background-color: #fff;
+  height: 180px;
+  width: 151px;
+  border-radius: var(--border-radius);
+}
+
+.dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  right: 14px;
+  height: 10px;
+  width: 10px;
+  background: var(--secondary-bg);
+  transform: rotate(45deg);
+}
+
+.dropdown-menu ul a {
+  display: grid;
+  padding: 05px 0;
+}
+
+.dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(--speed) ease;
+}
+
+.dropdown-menu.show {
+  visibility: visible;
+  opacity: 1;
+  z-index: 9;
+  transform: translateY(0);
+  transition: var(--speed) ease;
+  margin-left: -115px;
+}
 
 /* info é o conteiner com as informações e height é a altura*/
-
 main,
 .content {
   margin: 0 auto;
