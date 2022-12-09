@@ -18,18 +18,18 @@ h1 {
 }
 
 .icon {
+  cursor: pointer;
   margin-left: 0px;
+  margin-top: -6px;
 }
 
 .redes ul li {
-  margin-left: 14px;
+  margin-left: 30px;
   display: inline;
   float: left;
 }
 
-.redes ul li a {
-  margin: 10px;
-}
+
 
 .redes {
   float: right;
@@ -71,8 +71,8 @@ body {
 .headerbaixo {
   background-color: rgb(255, 255, 255);
   width: 980px;
-  margin: 0 auto;
-  padding: 7px;
+  margin: -3px auto;
+  padding: 4px;
 }
 
 .menu-urls {

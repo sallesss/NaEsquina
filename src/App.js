@@ -1,8 +1,7 @@
 import React from 'react';
-import lojaImg from './icons/loja.png';
+import lojaImg from './icons/loja2.png';
 import chatImg from './icons/chat2.png';
 import favImg from './icons/fav.png';
-import userImg from './icons/user.png';
 import loja1Img from './icons/loja1.png';
 
 import eadImg from './icons/ead.png';
@@ -24,6 +23,7 @@ import whatLogo from './img/what.png';
 
 import esquinaImg from './icons/esquina.png';
 import { Marousel } from './Components/Carousel';
+import { Drop } from './Components/Dropdown';
 import './App.css';
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
             <ul>
               <li><a href=" "><img src={favImg} alt="fav img" /></a></li>
               <li><a href=" "><img src={chatImg} alt="chat img" /></a></li>
-              <li><a href=" "><img src={userImg} alt="user img" /></a></li>
+              <li><a href=" "><Drop /></a></li>
             </ul>
           </div>
         </main>
